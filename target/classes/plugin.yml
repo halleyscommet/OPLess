@@ -1,0 +1,19 @@
+name: OPLess
+version: '1.0'
+main: us.dingl.opless.OPLess
+api-version: '1.21'
+
+commands:
+  startsite:
+    description: Start the site
+    usage: /<command>
+    permission: opless.site
+  stopsite:
+    description: Stop the site
+    usage: /<command>
+    permission: opless.site
+
+permissions:
+  opless.site:
+    description: Permission to start and stop the site
+    default: op
